@@ -38,6 +38,7 @@ extension AppSettings: AppSetingProtocol {
     func getValueFor(key: String) -> Any? {
         
         var result: Any?
+        //This is performing in concurrently
         concurrentQueue.sync {
             
             result = self.appSettings[key]
