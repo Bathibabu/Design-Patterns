@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        AppSettings.shared.set(value: "Bathi", key: "Name")
+        print(AppSettings.shared.getValueFor(key: "Name"))
         // Do any additional setup after loading the view.
     }
 

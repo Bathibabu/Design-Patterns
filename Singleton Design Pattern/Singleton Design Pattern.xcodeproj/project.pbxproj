@@ -14,6 +14,8 @@
 		4EE926F924B59C6F00979602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE926F824B59C6F00979602 /* Assets.xcassets */; };
 		4EE926FC24B59C6F00979602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE926FA24B59C6F00979602 /* LaunchScreen.storyboard */; };
 		4EE9270724B59C6F00979602 /* Singleton_Design_PatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9270624B59C6F00979602 /* Singleton_Design_PatternTests.swift */; };
+		4EE9271224B5BC6D00979602 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9271124B5BC6D00979602 /* AppSettings.swift */; };
+		4EE9271624B5D1F600979602 /* AppSettingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9271524B5D1F600979602 /* AppSettingProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		4EE9270224B59C6F00979602 /* Singleton Design PatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Singleton Design PatternTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE9270624B59C6F00979602 /* Singleton_Design_PatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton_Design_PatternTests.swift; sourceTree = "<group>"; };
 		4EE9270824B59C6F00979602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE9271124B5BC6D00979602 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		4EE9271524B5D1F600979602 /* AppSettingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				4EE926F824B59C6F00979602 /* Assets.xcassets */,
 				4EE926FA24B59C6F00979602 /* LaunchScreen.storyboard */,
 				4EE926FD24B59C6F00979602 /* Info.plist */,
+				4EE9271124B5BC6D00979602 /* AppSettings.swift */,
+				4EE9271524B5D1F600979602 /* AppSettingProtocol.swift */,
 			);
 			path = "Singleton Design Pattern";
 			sourceTree = "<group>";
@@ -202,7 +208,9 @@
 			files = (
 				4EE926F424B59C6C00979602 /* ViewController.swift in Sources */,
 				4EE926F024B59C6C00979602 /* AppDelegate.swift in Sources */,
+				4EE9271224B5BC6D00979602 /* AppSettings.swift in Sources */,
 				4EE926F224B59C6C00979602 /* SceneDelegate.swift in Sources */,
+				4EE9271624B5D1F600979602 /* AppSettingProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
